@@ -28,4 +28,5 @@ class Course(Model):
     id = fields.IntField(pk=True)
     name = fields.CharField(max_length=255, description='课程名')
     teacher = fields.ForeignKeyField('models.Teacher', related_name='courses', description='课程讲师')
+    addr = fields.CharField(max_length=32,description="教室",default="")
 
