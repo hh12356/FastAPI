@@ -9,7 +9,7 @@ from watchfiles import awatch
 
 student_api = APIRouter()
 
-#ORM的查询操作
+#ORM的查询操作jc
 # 1.all()返回Queryset
 # 2.filter(id=6)返回Queryset
 # 3.get(id=6)返回Student()
